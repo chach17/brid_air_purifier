@@ -1,0 +1,14 @@
+set_mode:
+  # Description of the service
+  description: Sets the Brid's mode
+  # Different fields that your service accepts
+  fields:
+    # Key of the field
+    entity_id:
+      # Description of the field
+      description: The Brid Air Purifier's Mode Entity ID
+      # Example value that can be passed for this field
+      example: 'sensor.living_room_brid_mode'
+    mode:
+      description: Mode (0 = Off, 1 = Smart, 2 = Auto, 3 = Boost, 4 = Night)
+      example: 1

@@ -1,0 +1,10 @@
+{
+  "domain": "brid_air_purifier",
+  "name": "Brid Air Purifier",
+  "documentation": "https://www.home-assistant.io/components/homekit_controller",
+  "requirements": [
+    "homekit[IP]==0.13.0"
+  ],
+  "dependencies": ["configurator"],
+  "codeowners": []
+}
